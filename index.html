@@ -5,8 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RM Contractor</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <div class="menu-area">
+                <img src="#" class="logo">
+                <div onclick="abrirmenu()" class="hamburguer">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+               
+            </div>
+        </div>
+        <nav id="nav">
+            <ul>
+                <a href="#aboutus">
+                    <li>About us</li> 
+                </a>
+                <a href="#portfolio">
+                    <li>Portfolio</li> 
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="home">
+            <div class="home-area">
+                <h1>Sua frase<br/> ou<br/> seu nome</h1>
+                <button class="botao-home"><a href="#service">learn more</a></button>
+            </div>
+            <img src="assets/images/background.png" alt="">
+        </section>
+
+        <section id="service" class="service">
+            <div class="container">
+                <div class="tittle">
+                    <h3>Service</h3>
+                    <div class="tittle-line"></div>
+                </div>
+                <div class="service-area">
+                    <div class="service-item">
+                        <img src="assets/images/service 3.png" alt="">
+                        <h2>Service 1</h2>
+                        <p>printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/images/service 3.png" alt="">
+                        <h2>Service 1</h2>
+                        <p>printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/images/service 3.png" alt="">
+                        <h2>Service 1</h2>
+                        <p>printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="aboutus" class="aboutus">
+            <div class="container">
+                <div class="tittle">
+                    <h3>About Us</h3>
+                    <div class="tittle-line"></div>
+                </div>
+                <div class="about-area">
+                    <div class="about-text">
+                        <h2>Titulo</h2>
+                        <p>is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it</p>
+                    </div>
+                    <div class="img">
+                        <img class="img-fluid" src="assets/images/image about.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="tittle">
+                <h3>Portfolio</h3>
+                <div class="tittle-line"></div>
+            </div>
+            <div class="container">
+                <div class="portfolio-bg">
+                    <div class="portfolio-area">
+
+                       
+                           <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                
+                                    <div class="portfolio-titulo">
+                                        <img src="assets/images/Vector 1.png">
+                                        <p>Nome do projeto</p>
+                                    </div>
+                                
+                           </div>
+                           
+                           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Nome do projeto</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+
+                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active" data-bs-interval="10000">
+                                            <img src="assets/images/Rectangle 6.png" class="d-block w-100" alt="">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img src="assets/images/Rectangle 6 (1).png" class="d-block w-100" alt="">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img src="assets/images/Rectangle 6 (2).png" class="d-block w-100" alt="">
+                                          </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="visually-hidden">Next</span>
+                                        </button>
+                                      </div>
+                        
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>    
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>all rights reserved @RM contractor</p>
+    </footer>
+    <script src="assets/script/bootstrap.min.js"></script>
+    <script src="assets/script/script.js"></script>
 </body>
 </html>
