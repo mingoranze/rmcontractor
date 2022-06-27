@@ -7,6 +7,15 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+.whatsapp {
+    width: 40px;
+    height: 40px;
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+}
 
 section {
     background-color: #EEEEEE;
